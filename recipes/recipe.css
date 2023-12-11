@@ -5,21 +5,20 @@
     font: 20px sans-serif;
 }
 
-.outer-container{
+body{
     width: 100vw;
     height: 100svh;
     background: #FFE382;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container{
     background: #FFC47E;
     width: 80vw;
     max-width: 800px;
-    height: 90svh;
     border: 10px solid #FFF78A;
     border-radius: 5%;
     padding: 30px;
